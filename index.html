@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>    <title>Document</title>
+</head>
+
+<body>
+        <div class="container">
+<div id="sideBar">
+    <div id="headLogo">
+        <img src="z_logo_icon.svg"></img>
+    </div>
+    <div id="navLinks">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">ABOUT US</a></li>
+        </ul>
+    </div>
+</div>
+<div class="main">
+    <ul id="cbp-bislideshow" class="cbp-bislideshow">
+        <li><img src="image.jpeg" alt="image01"/></li>
+        <li><img src="image2.jpeg" alt="image02"/></li>
+        <li><img src="image3.jpeg" alt="image03"/></li>
+    </ul>
+    <div id="cbp-bicontrols" class="cbp-bicontrols">
+        <span class="cbp-biprev"></span>
+        <!-- <span class="cbp-bipause"></span> -->
+        <span class="cbp-binext"></span>
+    </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/jquery.imagesloaded.min.js"></script>
+<script src="js/cbpBGSlideshow.min.js"></script>
+<script>
+    $(function() {
+        cbpBGSlideshow.init();
+    });
+</script>
+</body>
+
+</html>
